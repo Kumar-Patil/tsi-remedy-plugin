@@ -1,0 +1,40 @@
+char-set: UTF-8
+#
+#  File exported Thu Aug 11 21:08:46 GMT-12:00 2016
+#
+begin filter
+   name           : TSIChangeFilter
+   timestamp      : 1470992662
+   owner          : Demo
+   last-changed   : Demo
+   filter-op      : 22
+   enable         : 1
+   filter-order   : 500
+   wk-conn-type   : 1
+   schema-name    : CHG:Infrastructure Change
+   export-version : 12
+   filter-query   : 4\1\2\2\1\2\2\1\
+   action {
+      set-field   : 0\14506\108\29\TSI.CHANGE.PLUGIN.INTEGRATION\51\102\1\@\25\CHG:Infrastructure Change\1\1000000182\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\301596600\
+      set-field   : 0\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\3\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\303497300\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000
+      set-field   : 0\000164\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000000162\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\303998100\0\1\4\102\1\@\25\CHG:Infrastructu
+      set-field   : 0\re Change\1\1000000000\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\300271200\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\2\0\1\4\102\1\@\25\CHG:Infra
+      set-field   : 0\structure Change\1\1000000082\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\200000012\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\112\0\1\4\102\1\@\25\
+      set-field   : 0\CHG:Infrastructure Change\1\302199700\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000000180\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000000422\0
+      set-field   : 0\\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000000063\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000000064\0\1\4\102\1\@\25\CHG:Infrastructure Chan
+      set-field   : 0\ge\1\1000000065\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000001270\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000001271\0\1\4\102\1\@\25\CHG:In
+      set-field   : 0\frastructure Change\1\1000001272\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000000150\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000003264\0\1\4\
+      set-field   : 0\102\1\@\25\CHG:Infrastructure Change\1\301389647\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\304033000\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\30
+      set-field   : 0\4032900\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\301556800\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\304260100\0\1\4\102\1\@\25\CHG:Infrastructu
+      set-field   : 0\re Change\1\304258470\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000000242\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\304302260\0\1\4\102\1\@\25\C
+      set-field   : 0\HG:Infrastructure Change\1\303519300\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\4\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\300270900\0\1\4\102\1\
+      set-field   : 0\@\25\CHG:Infrastructure Change\1\300270800\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\301324200\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\10000022
+      set-field   : 0\68\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\240001002\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\301557300\0\1\4\102\1\@\25\CHG:Infrastructure Ch
+      set-field   : 0\ange\1\301390091\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\200000003\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\200000004\0\1\4\102\1\@\25\CHG:Inf
+      set-field   : 0\rastructure Change\1\200000005\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000000251\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000003299\0\1\4\10
+      set-field   : 0\2\1\@\25\CHG:Infrastructure Change\1\1000000001\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000000829\
+      set-field   : 0\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\1000000242\0\1\4\102\1\@\25\CHG:Infrastructure Change\1\304257090\0\1\4\1\
+   }
+   object-prop    : 3\90016\4\1\1\90015\2\4\90002\4\24\Remedy Change Management\
+   errhandler-opt : 0
+end

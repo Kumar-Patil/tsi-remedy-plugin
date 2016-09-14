@@ -1,0 +1,26 @@
+char-set: UTF-8
+#
+#  File exported Thu Aug 11 21:08:29 GMT-12:00 2016
+#
+begin filter
+   name           : TSIIncidentFilter
+   timestamp      : 1470992651
+   owner          : Demo
+   last-changed   : Demo
+   filter-op      : 22
+   enable         : 1
+   filter-order   : 501
+   wk-conn-type   : 1
+   schema-name    : HPD:Help Desk
+   export-version : 12
+   filter-query   : 4\1\2\2\1\2\2\1\
+   action {
+      set-field   : 0\1000000000\108\31\TSI.INCIDENT.PLUGIN.INTEGRATION\14\102\1\@\13\HPD:Help Desk\1\1000000161\0\1\4\102\1\@\13\HPD:Help Desk\1\7\0\1\4\102\1\@\13\HPD:Help
+      set-field   : 0\ Desk\1\6\0\1\4\102\1\@\13\HPD:Help Desk\1\303497400\0\1\4\102\1\@\13\HPD:Help Desk\1\1000000164\0\1\4\102\1\@\13\HPD:Help Desk\1\1000000169\0\1\4\102\
+      set-field   : 0\1\@\13\HPD:Help Desk\1\1000000162\0\1\4\102\1\@\13\HPD:Help Desk\1\1000000000\0\1\4\102\1\@\13\HPD:Help Desk\1\1000000218\0\1\4\102\1\@\13\HPD:Help Des
+      set-field   : 0\k\1\1000000004\0\1\4\102\1\@\13\HPD:Help Desk\1\1000000001\0\1\4\102\1\@\13\HPD:Help Desk\1\1000000010\0\1\4\102\1\@\13\HPD:Help Desk\1\303544200\0\1\4
+      set-field   : 0\\102\1\@\13\HPD:Help Desk\1\303497400\0\1\4\1\
+   }
+   object-prop    : 3\90016\4\1\1\90015\2\4\90002\4\26\Remedy Incident Management\
+   errhandler-opt : 0
+end
