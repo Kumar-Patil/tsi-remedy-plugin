@@ -1,0 +1,52 @@
+{
+	"payload": {
+		"title": "@TITLE",
+		"fingerprintFields": ["IncidentNumber"],
+		"severity": "@SEVERITY",
+		"status": "@STATUS",
+		"properties": {
+			"Assignee": "@ASSIGNEE",
+			"IncidentNumber": "@INCIDENT_NUMBER",
+			"CI": "@CI",
+			"Priority": "@PRIORITY",
+			"Priority Weight": "@WEIGHT",
+			"app_id": "@APP_ID"
+		},
+		"createdAt": "@CREATED_AT",
+		"eventClass": "Incident",
+		"source": {
+			"name": "Remedy",
+			"type": "Remedy",
+			"ref": "Remedy"
+		},
+		"sender": {
+			"name": "Remedy",
+			"type": "Remedy",
+			"ref": "Remedy"
+		}
+	},
+	"@SEVERITY": {
+		"1000": "Critical",
+		"2000": "High",
+		"3000": "Medium",
+		"4000": "Low"
+	},
+	"@PRIORITY": {
+		"0": "Critical",
+		"1": "High",
+		"2": "Medium",
+		"3": "Low"
+	},
+	"@STATUS": {
+		"0": "New",
+		"1": "Assigned",
+		"2": "In Progress",
+		"3": "Pending",
+		"4": "Resolved",
+		"5": "Closed",
+		"6": "Cancelled"
+	},
+	"@APP_ID": {
+		"BMC_APPLICATION": "BMC APPLICATION"
+	}
+}
