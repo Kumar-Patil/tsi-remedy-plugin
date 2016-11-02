@@ -1,10 +1,10 @@
 char-set: UTF-8
 #
-#  File exported Sun Oct 02 22:04:21 GMT-12:00 2016
+#  File exported Wed Nov 02 03:31:51 CDT 2016
 #
 begin filter
    name           : TSIChangeFilter
-   timestamp      : 1475138003
+   timestamp      : 1477567710
    owner          : Demo
    last-changed   : Demo
    filter-op      : 22
@@ -17,7 +17,7 @@ begin filter
    action {
       set-field   : 0\1000000000\108\29\TSI.CHANGE.PLUGIN.INTEGRATION\23\102\1\@\25\CHG:Infrastructure Change\1\1000000000\0\1\4\101\4\10\@CHANGE_ID\102\1\@\25\CHG:Infrastru
       set-field   : 0\cture Change\1\1000000182\0\1\4\101\4\7\@STATUS\102\1\@\25\CHG:Infrastructure Change\1\301596600\0\1\4\101\4\16\@CREATED_AT:DATE\102\1\@\25\CHG:Infrast
-      set-field   : 0\ructure Change\1\3\0\1\4\101\4\3\@CI\102\1\@\25\CHG:Infrastructure Change\1\303497300\0\1\4\101\4\9\@PRIORITY\102\1\@\25\CHG:Infrastructure Change\1\10
+      set-field   : 0\ructure Change\1\6\0\1\4\101\4\3\@CI\102\1\@\25\CHG:Infrastructure Change\1\303497300\0\1\4\101\4\9\@PRIORITY\102\1\@\25\CHG:Infrastructure Change\1\10
       set-field   : 0\00000164\0\1\4\101\4\16\@PRIORITY_WEIGHT\102\1\@\25\CHG:Infrastructure Change\1\1000000163\0\1\4\101\4\6\@TITLE\102\1\@\25\CHG:Infrastructure Change\1\
       set-field   : 0\1000000000\0\1\4\101\4\9\@ASSIGNEE\102\1\@\25\CHG:Infrastructure Change\1\300271200\0\1\4\101\4\10\@SUBMITTER\102\1\@\25\CHG:Infrastructure Change\1\2\
       set-field   : 0\0\1\4\101\4\7\@APP_ID\102\1\@\25\CHG:Infrastructure Change\1\303497300\0\1\4\101\4\9\@SEVERITY\102\1\@\25\CHG:Infrastructure Change\1\1000000162\0\1\4\
